@@ -13,6 +13,14 @@
   --text-white: #ffffff;
   --text-dim: #9d9db0;
 }
+.oscuro{
+  --bg-dark: #f4f4f7;
+  --card-bg: #68686a;
+  --accent-purple: #B700FF;
+  --accent-cyan: #0044ff;
+  --text-white: #161616;
+  --text-dim: #323238;
+}
 
 body {
   background-color: var(--bg-dark);

@@ -42,3 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         delay: loader ? 1.8 : 0.4
     });
 });
+
+document.getElementById("modo").addEventListener("click",function () {
+    document.body.classList.toggle("oscuro");
+})
